@@ -1,0 +1,226 @@
+body {
+	
+	background-color: lightblue;
+	
+	font-family: Times, serif;
+	
+	color: blue;
+
+	text-align: center;
+}
+ 
+div {
+text-align: left;
+}
+
+a {
+font-weight: bold;
+}
+
+a:visited {
+	color:blue;
+}
+
+a:hover {
+
+	background-color: gray;
+
+	color:white;
+} 
+
+
+
+
+#wrap {
+	
+	height: auto;
+	
+	width: expression(document.compatMode=='CSS1Compat'? document.documentElement.clientWidth-20+'px' : body.clientWidth-20+'px');
+	min-width: 60em;
+
+	//width: 60em;
+	
+	background-color: white;
+	
+	margin: 0 auto 0 ;
+
+}
+
+
+
+#content{
+	background-color: white;
+}
+
+
+
+#header {
+
+	width: auto;
+	
+	height: 12.5em;
+	
+	font-weight: 600;
+	
+	padding-right: .4em;
+	
+	padding-top: .2em;
+	
+	border-bottom: 1px solid lightblue;
+}
+
+
+#header_image {
+	
+	float: left;
+	
+	padding: .1em 3em 0 1.5em;
+
+
+}
+
+
+#header_logo {
+	
+	float: right;
+	
+}
+
+
+#header_content {
+
+	margin-top: .2em;
+
+	float:left;
+
+	text-align: justify;
+
+	color: blue;
+
+	letter-spacing: .1em;
+
+	line-height: 1.5em;
+
+}
+
+#header_highlights {
+	float: right;
+	color: blue;
+	//background-color: gray;
+	//height: 80%;
+	width: 40%;
+	text-align: left;
+	margin:.2em 3em;
+	font-weight: 400;
+	border-style: double;
+	padding: 0em .2em .2em 0em;
+}
+
+#right_col {
+
+	float: left;
+
+	width: 20%;
+
+	height: auto;
+
+	
+border-width: 0 1px 0 0;
+
+	border-color: lightblue;
+
+	border-style: solid;
+
+	font-weight: 600;
+
+}
+
+
+
+#left_col {
+
+	float: right;
+
+	height: 100%;
+
+	width: 79.5%;
+
+	height: auto;
+
+	color: black;
+
+	background-color: white;
+
+}
+
+
+#left_col .text {
+
+	padding: .1em 4em .2em 2em;
+
+	text-align: justify;
+
+	line-height: 1.3em;
+
+	font-size: 1em;
+
+
+}
+
+#left_col .header {
+
+	border-bottom: 1px dotted black;
+
+	font-variant: small-caps;
+
+	font-style: bold;
+
+	font-size: 1.2em;
+
+	font-weight: 600;
+
+}
+
+
+
+#footer {
+
+	clear:both;
+
+	width: 100%;
+
+	border-top: 2px solid lightblue;
+
+}
+
+
+#footer a{
+
+	text-decoration: none;
+
+	letter-spacing: .05em;
+
+	background-color: white;
+
+	color: blue;
+
+	display: block;
+
+	padding: .1em .1em 0 .1em;
+
+	font-size: .8em;
+
+}
+
+
+#footer a:hover{
+
+	background-color: gray;
+
+	color:white;
+
+}
+
+
+
+

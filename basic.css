@@ -1,0 +1,196 @@
+.new-item{color: red;}
+
+.outline { border-color: black;
+                 border-style: solid;
+                 border-width: 0px 2px 2px 2px; }
+
+.midline { border-color: black;
+                 border-style: solid;
+                 border-width: 0px 2px 2px 0px; }
+
+.line { border-width:  0px 0px 2px 0px;
+              border-color: black;
+              border-style: solid;}
+      
+
+TD { 
+  font-family : arial, helvetica, sans-serif;
+  vertical-align: top;
+  }
+
+.small {font-size : 90%;}
+
+.arial { font-family : arial, helvetica, sans-serif}
+
+.title { font-family : times ; font-size : x-large; 
+  vertical-align: bottom;}
+
+.section {font-size : large; font-family : Arial, Helvetica, sans-serif; font-weight: bold}
+
+.important {
+  font-family: arial, sans-serif;
+  font-size: large;
+  border : double #f90 red;
+  color: red;
+  }
+
+.warning { border : double red 3px; padding : 1em}
+
+.editorial { border : inset #9c9 1px; padding : 3px}
+
+FORM {  padding : 3px;
+ color : black; background : #cc9 none;
+ }
+input.radio { background : #cc9 none;   color : #000; }
+
+blockquote { margin: 0px; margin-left: 2.5em; color : #000; }
+
+.justify_indent { text-align: justify; margin-left: 1em;}
+
+.justify { text-align: justify; }
+
+.motto {margin-left:30%; width:70%}
+
+form.button {background:transparent none; border:none;}
+
+LI     { margin-bottom: 1em;}
+
+
+DT { margin-top: 0.4em; }
+DD { margin-bottom: 0.4em; }
+
+.abstract
+{   border : solid #699 1px; padding : 1em 1em 1em 1em;
+font size : font-family : Verdana, Arial, Helvetica, sans-serif; text-align: justify;
+text-indent : 0em;  margin-top : 2em; margin-bottom: 0.5em;
+margin-left : 5%; margin-right : 5%;
+}
+
+.important { text-indent : 1em;
+        margin-top: 0.5em; margin-bottom: 0.5em;
+            margin-left : 5%; margin-right : 10%; }
+
+div.warning, P.warning { font-size : 105%; 
+        margin-top: 0.5em; margin-bottom: 0.5em;
+            margin-left : 10%; margin-right : 10%; }
+
+strong { color : #00; background : transparent none; }
+
+strong.warning, em.warning { color : #f00; background : transparent none; }
+
+.editorial { font-size : 80%; 
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+            margin-left : 20%; }
+
+.ed { font-size : 90%; }
+
+.example { font-size:99%; margin-left:1%; padding-left:0.7ex;
+           border-left : solid #0c0 2px;}
+
+HR { color : #000000; height : 2px}
+
+H1              { font-size: 180%; }
+H2              { font-size: 140%; }
+.H3              { font-size: 117%; }
+H4              { font-size: 105%; }
+
+h1, h2, h3, h4 { color : #00; background : #ffffff none;
+  font-family : Arial, Helvetica, sans-serif;
+  page-break-after : avoid; }
+
+blockquote H1              { font-size: 130%; }
+blockquote H2              { font-size: 120%; }
+blockquote H3              { font-size: 85%; }
+        
+
+blockquote.newspaper {
+  text-align: justify;
+  width: 20em;
+  border: none;
+  font-family: "Times New Roman", serif; }
+
+caption, .subcaption  { color : #000; background : #ffc none; }
+
+TABLE.menu { border : solid blue 2px; padding : 3px;
+  text-align : center }
+
+table.texttable  { border : solid #222 0.1em; padding : 2em; }
+#codetable TR TD A {text-decoration:none; font-size:large}
+
+.numeric
+  { font-family : Courier, monospace;
+    text-align : right; }
+
+.credit { font-size : 85%; text-align : right; }
+
+CAPTION { font-weight: bold}
+
+#tight { margin: 0px 0px 0px 0px;}
+
+BODY { background : #ffffff ; color : #00000; }
+
+A:link, strong a:link, em a:link, cite a:link,
+a:link strong, a:link em, a:link cite
+ { color : #008080; background : transparent none; }
+
+A:visited, strong a:visited, em a:visited, cite a:visited,
+ a:visited strong, a:visited em, a:visited cite
+ { color : #008080; background : transparent none; }
+
+A:hover, strong a:hover, em a:hover, cite a:hover,
+ a:hover strong, a:hover em, a:hover cite
+ { color : orange ; background : none; }
+
+A:active, strong a:active, em a:active, cite a:active,
+ a:active strong, a:active em, a:active cite
+ { color : orange ; background : none ; }
+
+EM {      color : #000;
+          background:transparent none;}
+
+cite{      font-weight:500;
+          color : #030;
+          background:transparent none;
+          margin-left: 2em;}
+
+DFN, DT { font-weight: bold;
+          color : #066;
+          background:transparent none;}
+
+var { background:#fff6eb none; color:#010;}
+
+KBD { font-weight: bold}
+
+PRE { background: #e0ffe0 none;color:black; white-space:pre; }
+PRE.cmd { background: #fcf; color:black;}
+
+PRE.samp { background: #fee; color:black;}
+
+.screen {background : #fff; color:#600; font size : smaller;
+border : solid #333 1px;
+ padding : 3px;
+font-family : "Lucida Console", Courier, monospace }
+
+.signed { font-family : "Lucida Handwriting",  Western, cursive; }
+address { font-style: normal; }
+
+pre, code { font-family : "Courier", monospace;
+font-style : normal; }
+
+pre { white-space : pre; }
+
+.deem { font-size : 77%;
+font-family : "Myriad Web",Verdana,Helvetica,Arial,sans-serif; }
+ 
+p.literary, .literary p { text-indent : 1em;
+    margin-bottom : 0.5ex;
+    margin-top : 0.5ex; }
+
+p.start { text-indent : 0;
+    margin-bottom : 0.5ex; }
+
+p.start:first-letter { font-size : 200%; font-weight : bold;
+   color : #060; background : #fff none; }
+ 
+table.ex tr.sample td { font-weight : bold; color : black; 
+  background : white none; text-align : center; } 

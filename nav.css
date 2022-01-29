@@ -1,0 +1,25 @@
+#nav_links {
+}
+#nav_header {
+	border-bottom: 1px solid lightblue;
+}
+#nav_links a{
+	text-decoration: none;
+	border-bottom: 1px dotted blue;
+	letter-spacing: .1em;
+	font-style: bold;
+	background-color: white;
+	color: blue;
+	display: block;
+	padding: .4em .1em 0 .1em;
+}
+#nav_links a:hover {
+	color: white;
+	background-color: gray;
+}
+#nav_links a:active, 
+#nav_links a.active {
+	color:blue;
+	font-style: italic;
+	background-color:lightblue;
+}
